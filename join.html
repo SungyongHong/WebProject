@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HONGS</title>
+    <link href="css/all.css" type="text/css" rel="stylesheet">
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+  </head>
+  <body>
+    <div id="index">
+      <header>
+        <a href="index.html"><img src="img/logo.png" alt="HONGS"></a>
+        <div id="header_nav">
+          <ul>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="join.html">JOIN</a></li>
+          </ul>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li>M E N U
+            <ul class="drop_menu">
+              <a href="new.html"><li>New</li></a>
+              <a href="set.html"><li>Set</li></a>
+              <a href="steak.html"><li>Steak</li></a>
+              <a href="pasta.html"><li>Pasta</li></a>
+              <a href="salad.html"><li>Salad</li></a>
+              <a href="ricerisotto.html"><li>Rice & Risotto</li></a>
+              <a href="dessert.html"><li>dessert</li></a>
+              <a href="drink.html"><li>drink</li></a>
+              <a href="wine.html"><li>wine</li></a>
+            </li>
+            </ul>
+            <li>S T O R E
+              <ul class="drop_menu">
+                <li>Search</li>
+                <li>Special Party</li>
+                <li>Service</li>
+              </ul>
+              </li>
+            <li>E V E N T
+              <ul class="drop_menu">
+                <li>New Events</li>
+                <li>Hot Events</li>
+                <li>Last Events</li>
+              </ul>
+              </li>
+            <li>B E N E F I T
+              <ul class="drop_menu">
+                <li>Coupon</li>
+                <li>Gift Card</li>
+                <a href="discount.html"><li>Discount</li></a>
+              </ul>
+              </li>
+            <li>M E M B E R S H I P
+              <ul class="drop_menu">
+                <li>Reward</li>
+                <li>Card Issuance</li>
+                <li>Point Mall</li>
+                </li>
+              </ul>
+          </ul>
+      </nav>
+      <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+          <div class="wrapper wrapper--w790">
+              <div class="card card-5">
+                  <div class="card-heading">
+                      <h2 class="title">Registration</h2>
+                  </div>
+                  <div class="card-body">
+                      <form method="POST">
+                          <div class="form-row m-b-55">
+                              <div class="name">Name</div>
+                              <div class="value">
+                                  <div class="row row-space">
+                                      <div class="col-2">
+                                          <div class="input-group-desc">
+                                              <input class="input--style-5" type="text" name="first_name">
+                                              <label class="label--desc">first name</label>
+                                          </div>
+                                      </div>
+                                      <div class="col-2">
+                                          <div class="input-group-desc">
+                                              <input class="input--style-5" type="text" name="last_name">
+                                              <label class="label--desc">last name</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="name">Sex</div>
+                              <div class="value">
+                                  <div class="input-group">
+                                      <div class="rs-select2 js-select-simple select--no-search">
+                                          <select name="subject">
+                                              <option disabled="disabled" selected="selected">Choose option</option>
+                                              <option>Man</option>
+                                              <option>Women</option>
+                                          </select>
+                                          <div class="select-dropdown"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="name">ID</div>
+                              <div class="value">
+                                  <div class="input-group">
+                                      <input class="input--style-5" type="text" name="company">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="name">Password</div>
+                              <div class="value">
+                                  <div class="input-group">
+                                      <input class="input--style-5" type="text" name="company">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="name">Password check</div>
+                              <div class="value">
+                                  <div class="input-group">
+                                      <input class="input--style-5" type="text" name="company">
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="form-row">
+                              <div class="name">Email</div>
+                              <div class="value">
+                                  <div class="input-group">
+                                      <input class="input--style-5" type="email" name="email">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row m-b-55">
+                              <div class="name">Phone</div>
+                              <div class="value">
+                                  <div class="row row-refine">
+                                      <div class="col-3">
+                                          <div class="input-group-desc">
+                                              <input class="input--style-5" type="text" name="area_code">
+                                              <label class="label--desc">Area Code</label>
+                                          </div>
+                                      </div>
+                                      <div class="col-9">
+                                          <div class="input-group-desc">
+                                              <input class="input--style-5" type="text" name="phone">
+                                              <label class="label--desc">Phone Number</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="name">Company</div>
+                              <div class="value">
+                                  <div class="input-group">
+                                      <input class="input--style-5" type="text" name="company">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row p-t-20">
+                              <label class="label label--block">Do you agree to the use of personal information?</label>
+                              <div class="p-t-15">
+                                  <label class="radio-container m-r-55">Yes
+                                      <input type="radio" checked="checked" name="exist">
+                                      <span class="checkmark"></span>
+                                  </label>
+                                  <label class="radio-container">No
+                                      <input type="radio" name="exist">
+                                      <span class="checkmark"></span>
+                                  </label>
+                              </div>
+                          </div>
+                          <div>
+                              <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <br><br><br><br>
+      </div>
+      <footer>
+        <div id="footer_nav">
+          <ul>
+            <a href="sorry.html"><li>회사소개</li></a>
+            <a href="sorry.html"><li>사이트맵</li></a>
+            <a href="recruit.html"><li>채용공고</li></a>
+            <a href="conditions.html"><li>이용약관</li></a>
+            <a href="privacy.html"><li>개인정보처리방침</li></a>
+          </ul>
+        </div>
+        <hr><br>
+        <p>상호 : HONGS &nbsp;사업자번호 : 123-45-67890 &nbsp;대표이사 : 홍성용 &nbsp;
+        고객센터 : 1588-8851 &nbsp;팩스 : 02-2018-0729 &nbsp;이메일 : sungyong@hongs.co.kr &nbsp;
+        주소 : 서울시 구로구 경인로 445 3호관 (고척동 62-160 3호관) &nbsp;개인정보보호책임자 : 장용미</p>
+        <span>Copyright © HONGS. All Right Reserved.</span>
+      </footer>
+    </div>
+  </body>
+</html>
